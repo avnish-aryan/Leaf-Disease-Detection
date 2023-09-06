@@ -3,9 +3,11 @@ Overview:
 Leaf diseases in plants can significantly impact agricultural productivity and crop yield. Early detection and intervention are crucial for preventing the spread of these diseases. This project aims to tackle this issue by leveraging the power of deep learning techniques to automatically detect and classify leaf diseases in plants. By employing Convolutional Neural Networks (CNNs), a state-of-the-art deep learning approach, we have developed a robust and efficient model capable of identifying various leaf diseases across 38 different classes.
 
 Dataset:
+
 Our model was trained on a comprehensive dataset comprising 54,000 high-resolution images of plant leaves. This dataset covers a wide range of plant species and includes various common leaf diseases, providing a diverse and challenging environment for training the CNN. The dataset is available at https://github.com/spMohanty/PlantVillage-Dataset
 
 Methodology:
+
 We implemented a Convolutional Neural Network architecture, a deep learning model optimized for image recognition tasks. This CNN was trained on the dataset with the help of data augmentation techniques to increase its robustness and generalization ability. The model learned to extract meaningful features from leaf images and classify them into one of the 38 different disease categories.
 
 Key Features:
